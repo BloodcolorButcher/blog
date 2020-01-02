@@ -90,6 +90,10 @@ class BlogController extends Controller
      */
     public function destroy(Blog $blog)
     {
-        $this->authorize('delete',$blog);
+        $this->authorize('delete', $blog);
+        $blog->delete();
+        session()->flash('success', '删除成功');
+        $user = $blog->user;
+        return redirect()->route('user.show',compact('user'));
     }
 }

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbecb9d4-2dab-4be1-9f7f-276a15d62fdd" name="Default Changelist" comment="" />
+    <list default="true" id="dbecb9d4-2dab-4be1-9f7f-276a15d62fdd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,13 +35,27 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="MySQL for 5.1 - blog@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="blog" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -132,6 +154,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1VBk1eB6G7G8BquePt1mjUP3PTC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -140,6 +163,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -198,8 +222,8 @@
       <command value="artisan make:seeder BlogSeeder" />
       <command value="artisan make:policy --model=Blog BlogPolicy" />
       <command value="artisan make:migration --create=follows create_table_flollows" />
-      <command value="artisan migrate:refresh --seed" />
       <command value="artisan make:controller FollowController" />
+      <command value="artisan migrate:refresh --seed" />
     </option>
   </component>
   <component name="RunManager">
@@ -213,7 +237,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL for 5.1 - blog@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -259,6 +288,7 @@
       <workItem from="1577336774392" duration="66000" />
       <workItem from="1577337165467" duration="25000" />
       <workItem from="1577349014285" duration="5389000" />
+      <workItem from="1577932544049" duration="3232000" />
     </task>
     <servers />
   </component>
@@ -274,10 +304,10 @@
     </state>
     <state x="550" y="44" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1576935237604" />
     <state x="792" y="187" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1576766920793" />
-    <state x="272" y="71" width="861" height="530" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576922716330">
+    <state x="272" y="71" width="861" height="530" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577932834215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="272" y="71" width="861" height="530" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1576922716330" />
+    <state x="272" y="71" width="861" height="530" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577932834215" />
     <state x="855" y="252" width="801" height="667" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576766988642" />
     <state x="506" y="619" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576760698546">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -305,29 +335,30 @@
     </state>
     <state x="824" y="195" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577337188978" />
     <state x="1158" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576746113199" />
-    <state width="905" height="157" key="GridCell.Tab.0.bottom" timestamp="1577334508491">
+    <state width="1323" height="70" key="GridCell.Tab.0.bottom" timestamp="1577939160405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="157" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577334508491" />
+    <state width="1323" height="70" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577939160405" />
     <state width="1271" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576853258911" />
-    <state width="905" height="157" key="GridCell.Tab.0.center" timestamp="1577334508491">
+    <state width="1323" height="70" key="GridCell.Tab.0.center" timestamp="1577939160405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="157" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577334508491" />
+    <state width="1323" height="70" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577939160405" />
     <state width="1271" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576853258911" />
-    <state width="905" height="157" key="GridCell.Tab.0.left" timestamp="1577334508491">
+    <state width="1323" height="70" key="GridCell.Tab.0.left" timestamp="1577939160405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="157" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577334508491" />
+    <state width="1323" height="70" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577939160405" />
     <state width="1271" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576853258911" />
-    <state width="905" height="157" key="GridCell.Tab.0.right" timestamp="1577334508491">
+    <state width="1323" height="70" key="GridCell.Tab.0.right" timestamp="1577939160405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="157" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577334508491" />
+    <state width="1323" height="70" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577939160405" />
     <state width="1271" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576853258911" />
-    <state width="220" height="539" key="HiddenNamespacesPopup" timestamp="1576735979316">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="220" height="378" key="HiddenNamespacesPopup" timestamp="1577932846914">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="220" height="378" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1577932846914" />
     <state width="220" height="539" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1576735979316" />
     <state x="538" y="233" key="NewPhpClassDialog" timestamp="1576995634590">
       <screen x="0" y="0" width="1366" height="728" />
@@ -352,10 +383,10 @@
     </state>
     <state x="506" y="154" width="597" height="378" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1577067812325" />
     <state x="1118" y="152" width="597" height="540" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1576846086192" />
-    <state width="498" height="398" key="SwitcherDM" timestamp="1577068548808">
+    <state width="498" height="398" key="SwitcherDM" timestamp="1577934068211">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="498" height="398" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1577068548808" />
+    <state width="498" height="398" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1577934068211" />
     <state width="551" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1576846110613" />
     <state x="681" y="259" key="SymfonyComponentCompositeDataDialog" timestamp="1576929990535">
       <screen x="0" y="0" width="1366" height="728" />
@@ -379,10 +410,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="298" y="579" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576747779653" />
-    <state x="713" y="458" width="672" height="474" key="run.anything.popup" timestamp="1577334438920">
+    <state x="713" y="458" width="672" height="474" key="run.anything.popup" timestamp="1577933955638">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="713" y="458" width="672" height="474" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1577334438920" />
+    <state x="713" y="458" width="672" height="474" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1577933955638" />
     <state x="1043" y="565" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576852964567" />
     <state x="754" y="137" width="672" height="475" key="search.everywhere.popup" timestamp="1577245613472">
       <screen x="0" y="0" width="1366" height="728" />

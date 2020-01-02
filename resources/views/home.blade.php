@@ -47,7 +47,7 @@
                         </td>
 
                         <td>
-                            <a href="{{route('user.show',$blog->user)}}"> {{$blog->user->name}}</a>
+                           <a href="{{route('user.show',$blog->user)}}"> {{$blog->user->name}}</a>
                         </td>
 
                     </tr>
